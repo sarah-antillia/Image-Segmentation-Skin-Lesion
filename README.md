@@ -3,7 +3,7 @@
 1 Image-Segmentation-Skin-Lesion 
 </h2>
 <p>
-This is an experimental project for Image-Segmentation of Skin-Legion by using
+This is an experimental project for Image-Segmentation of Skin-Lesion by using
  <a href="https://github.com/atlan-antillia/Tensorflow-Slightly-Flexible-UNet">Tensorflow-Slightly-Flexible-UNet</a> Model,
 which is a typical classic Tensorflow2 UNet implementation <a href="./TensorflowUNet.py">TensorflowUNet.py</a> 
 <p>
@@ -237,7 +237,7 @@ We have also tried to infer the segmented lesion for
 images_dir    = "./mini_test/images" 
 </pre> dataset defined in <b>train_eval_infer.config</b>,
  by using our Pretrained Skin-Region UNet Model.<br>
-The mini_test dataset has just been created by using <a href="./projects/Skin-Legion/generator/create_mini_test.py">
+The mini_test dataset has just been created by using <a href="./projects/Skin-Lesion/generator/create_mini_test.py">
 create_mini_test.py</a> from the original ISIC Test dataset.
 <pre>
 

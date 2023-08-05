@@ -275,7 +275,7 @@ Please move to ./projects/Skin-Lesion/ directory, and run the following bat file
 inferred images)</a></b><br>
 <img src="./asset/mini_test_output_merged.png" width="1024" height="auto"><br><br>
 
-<b>Some enlarged input images inferred merged images</b><br>
+<b>Some enlarged input images and inferred merged images</b><br>
 <table>
 <tr>
 <td>Input ISIC_0012223.jpg</td><td>Inferred-merged ISIC_0012223.jpg</td>

@@ -234,7 +234,7 @@ The evaluation result is the following.<br>
 <h2>
 6 Inference 
 </h2>
-We have also tried to infer the segmented resion for 
+We have also tried to infer the segmented lesion for 
 <pre>
 images_dir    = "./mini_test/images" 
 </pre> dataset defined in <b>train_eval_infer.config</b>,
@@ -247,8 +247,7 @@ create_mini_test.py</a> from the original ISIC Test dataset.
 ├─ISIC-2017_Test_v2_Data
 └─ISIC-2017_Test_v2_Part1_GroundTruth
 </pre>
-The Test Data folder contains very large images, from 3K to 6.6K in width, however the lesions are localized
-,not scattered randomly. <br>
+The Test Data folder contains very large images, from 3K to 6.6K in width.<br>
 
 Please move to ./projects/Skin-Lesion/ directory, and run the following bat file.<br>
 <pre>

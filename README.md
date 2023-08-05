@@ -22,7 +22,6 @@ Codella N, Gutman D, Celebi ME, Helba B, Marchetti MA, Dusza S, Kalloo A, Liopyr
   Hosted by the International Skin Imaging Collaboration (ISIC)". arXiv: 1710.05006 [cs.CV]
 </pre>
 <b>License: CC-0</b><br>
-
 <br>
 See also:<br>
 
@@ -37,7 +36,6 @@ The ISIC 2017 dataset was published by the International Skin Imaging Collaborat
 of dermoscopy images. The Task 1 challenge dataset for lesion segmentation contains 2,000 images for training with 
 ground truth segmentations (2000 binary mask images).
 </pre>
-
 <br>
 <h2>
 2. Install Image-Segmentation-Skin-Lesion

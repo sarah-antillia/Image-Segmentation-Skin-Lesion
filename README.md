@@ -333,3 +333,15 @@ https://arxiv.org/ftp/arxiv/papers/1703/1703.00523.pdf
 https://challenge.isic-archive.com/data/
 </pre>
 
+<b>3. Skin Lesion Segmentation Using Deep Learning with Auxiliary Task</b><br>
+Lina LiuORCID,Ying Y. Tsui andMrinal Mandal<br>
+<pre>
+https://www.mdpi.com/2313-433X/7/4/67
+</pre>
+
+<b>4. Skin Lesion Segmentation from Dermoscopic Images Using Convolutional Neural Network</b><br>
+Kashan Zafar, Syed Omer Gilani, Asim Waris, Ali Ahmed, Mohsin Jamil, <br>
+Muhammad Nasir Khan and Amer Sohail Kashif<br>
+<pre>
+https://www.mdpi.com/1424-8220/20/6/1601
+</pre>

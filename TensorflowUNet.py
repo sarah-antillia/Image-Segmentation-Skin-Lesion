@@ -380,9 +380,9 @@ class TensorflowUNet:
     for image_file in image_files:
       basename = os.path.basename(image_file)
       name     = basename.split(".")[0]
-      # <fixed> 2023/07/15 to avoid error on png file
+      # <fixed> 2023/08/05 to avoid error on png file
       img      = cv2.imread(image_file)
-      img      = cv2.cvtColor(img,  cv2.COLOR_BGR2RGB)
+      #img      = cv2.cvtColor(img,  cv2.COLOR_BGR2RGB)
       # </fixed>
 
       h = img.shape[0]

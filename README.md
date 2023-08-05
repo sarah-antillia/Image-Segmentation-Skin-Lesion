@@ -42,9 +42,9 @@ ground truth segmentations (2000 binary mask images).
 <h2>
 2. Install Image-Segmentation-Skin-Lesion
 </h2>
-Please clone Image-Segmentation-Skin-Legion.git in a folder <b>c:\google</b>.<br>
+Please clone Image-Segmentation-Skin-Lesion.git in a folder <b>c:\google</b>.<br>
 <pre>
->git clone https://github.com/sarah-antillia/Image-Segmentation-Skin.git<br>
+>git clone https://github.com/sarah-antillia/Image-Segmentation-Skin-Lesion.git<br>
 </pre>
 You can see the following folder structure in your working folder.<br>
 
@@ -135,7 +135,7 @@ The created <b>Skin-Lesion</b> dataset has the following folder structure.<br>
 </h2>
  We have trained Skin-Lesion TensorflowUNet Model by using the following
  <b>train_eval_infer.config</b> file. <br>
-Please move to ./projects/Skin directory, and run the following bat file.<br>
+Please move to ./projects/Skin-Lesion directory, and run the following bat file.<br>
 <pre>
 >1.train.bat
 </pre>
@@ -218,7 +218,7 @@ The training process has just been stopped at epoch 43 by an early-stopping call
 5 Evaluation
 </h2>
  We have evaluated prediction accuracy of our Pretrained Skin-Lesion Model by using <b>valid</b> dataset.<br>
-Please move to ./projects/Skin-Legion/ directory, and run the following bat file.<br>
+Please move to ./projects/Skin-Lesion/ directory, and run the following bat file.<br>
 <pre>
 >2.evalute.bat
 </pre>
@@ -234,7 +234,7 @@ The evaluation result is the following.<br>
 <h2>
 6 Inference 
 </h2>
-We have also tried to infer the segmented region for 
+We have also tried to infer the segmented resion for 
 <pre>
 images_dir    = "./mini_test/images" 
 </pre> dataset defined in <b>train_eval_infer.config</b>,
@@ -247,10 +247,10 @@ create_mini_test.py</a> from the original ISIC Test dataset.
 ├─ISIC-2017_Test_v2_Data
 └─ISIC-2017_Test_v2_Part1_GroundTruth
 </pre>
-The Test Data folder contains very large images, from 3K to 6.6K in width, however the legion are localized
+The Test Data folder contains very large images, from 3K to 6.6K in width, however the lesions are localized
 ,not scattered randomly. <br>
 
-Please move to ./projects/Skin-Legion/ directory, and run the following bat file.<br>
+Please move to ./projects/Skin-Lesion/ directory, and run the following bat file.<br>
 <pre>
 >3.infer.bat
 </pre>

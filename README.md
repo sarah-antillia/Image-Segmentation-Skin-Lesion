@@ -1,9 +1,9 @@
 # Image-Segmentation-Skin-Lesion (2023/08/05)
 <h2>
-1 Image-Segmentation-Skin 
+1 Image-Segmentation-Skin-Lesion 
 </h2>
 <p>
-This is an experimental project for Image-Segmentation of Skin by using
+This is an experimental project for Image-Segmentation of Skin-Legion by using
  <a href="https://github.com/atlan-antillia/Tensorflow-Slightly-Flexible-UNet">Tensorflow-Slightly-Flexible-UNet</a> Model,
 which is a typical classic Tensorflow2 UNet implementation <a href="./TensorflowUNet.py">TensorflowUNet.py</a> 
 <p>

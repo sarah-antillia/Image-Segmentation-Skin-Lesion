@@ -98,7 +98,7 @@ The dataset <b>ISIC-2017</b> has the following folder structure.<br>
 └─ISIC-2017_Validation_Part1_GroundTruth
 </pre>
 Image  *_Data folders contain jpg image files of various size from 1K to 4K, and mask dataset *_GroundTruth 
-folder contain the segmention png files corresponding to the images in *_Data folders.
+folders contain the segmention png files corresponding to the images in *_Data folders.
 
 <h3>
 3.2 Create image and mask dataset
